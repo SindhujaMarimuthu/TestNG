@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Subtraction is completed]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="183" started-at="2020-07-02T07:42:51Z" finished-at="2020-07-02T07:42:51Z">
+    <groups>
+      <group name="SmokeTest2">
+        <method signature="TestCase1.Subtraction(int, int)[pri:0, instance:com.org.TestCase.TestCase1@51efea79]" name="Subtraction" class="com.org.TestCase.TestCase1"/>
+      </group> <!-- SmokeTest2 -->
+      <group name="SmokeTest3">
+        <method signature="TestCase2.multiplication(int)[pri:0, instance:com.org.TestCase.TestCase2@5034c75a]" name="multiplication" class="com.org.TestCase.TestCase2"/>
+        <method signature="TestCase2.negate(int)[pri:0, instance:com.org.TestCase.TestCase2@5034c75a]" name="negate" class="com.org.TestCase.TestCase2"/>
+      </group> <!-- SmokeTest3 -->
+    </groups>
+    <test name="Test" duration-ms="183" started-at="2020-07-02T07:42:51Z" finished-at="2020-07-02T07:42:51Z">
+      <class name="com.org.TestCase.TestCase1">
+        <test-method status="PASS" signature="Subtraction(int, int)[pri:0, instance:com.org.TestCase.TestCase1@51efea79]" name="Subtraction" duration-ms="11" started-at="2020-07-02T07:42:51Z" finished-at="2020-07-02T07:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Subtraction is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+      </class> <!-- com.org.TestCase.TestCase1 -->
+      <class name="com.org.TestCase.TestCase2">
+        <test-method status="PASS" signature="multiplication(int)[pri:0, instance:com.org.TestCase.TestCase2@5034c75a]" name="multiplication" duration-ms="11" started-at="2020-07-02T07:42:51Z" finished-at="2020-07-02T07:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> inverse is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.org.TestCase.TestCase2@5034c75a]" name="negate" duration-ms="1" started-at="2020-07-02T07:42:51Z" finished-at="2020-07-02T07:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> negate is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+      </class> <!-- com.org.TestCase.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
